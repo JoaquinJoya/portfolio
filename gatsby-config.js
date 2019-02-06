@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Hello there, I’m Joaquin Joya an Interface Designer & Frontend Developer based on Mexico City, enthusiastic to build and enhance products for people.
-    `,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Joaquin Joya`,
+    description: `Hello there, I’m Joaquin Joya an Interface Designer & Frontend Developer based on Mexico City, enthusiastic to build and enhance products for people.`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -27,7 +26,7 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
-    },
+    }, `gatsby-plugin-styled-components`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
