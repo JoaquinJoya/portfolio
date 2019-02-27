@@ -11,15 +11,13 @@ import { device } from "../css/devices"
 
 const Wrapper = styled.div `
   margin: 0 auto;
-  padding: 0 80px;
+  padding: 0 20px;
   width: 100%;
 
-  @media ${device.mobileL} {
-    max-width: 300px;
-  }
 
   @media ${device.tablet} {
-    max-width: 768px;
+    max-width: 90%;
+    padding: 0 80px;
   }
 
   @media ${device.laptopL} {
@@ -45,7 +43,7 @@ const ListNavContainer = styled.ul`
     display: none;
 
 
-  @media ${device.tablet} {
+  @media ${device.laptop} {
       display: flex;
   }
 
@@ -54,8 +52,15 @@ const ListNavContainer = styled.ul`
 `;
 
 const NavItem = styled.li `
+
+
+@media ${device.tablet} {
   padding: 0 24px;
- 
+}
+
+padding: 0 14px;
+
+  
 `;
 
 const NavItemLink = styled(Link)`
@@ -99,7 +104,6 @@ const Header = () => (
       <ListNavContainer>
           <NavItem><NavItemLink to="/">Home</NavItemLink></NavItem>
           <NavItem><NavItemLink to="/">Work</NavItemLink></NavItem>
-          <NavItem><NavItemLink to="/">The Process</NavItemLink></NavItem>
           <NavItem><NavItemLink to="/">About Me</NavItemLink></NavItem>
           <NavItem><NavItemLink to="/">Blog</NavItemLink></NavItem>
       </ListNavContainer>
