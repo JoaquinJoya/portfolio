@@ -5,9 +5,8 @@ import React from "react"
 import "../css/styles.css"
 import colors from "../css/colors.js"
 import { device } from "../css/devices"
-
-
-
+import "./Header/headerStyles.css"
+import Menu from "./Header/hamburgerMenu.js"
 
 const Wrapper = styled.div `
   margin: 0 auto;
@@ -92,8 +91,11 @@ const HeaderContainer = styled.header `
 
 
 
+
 const Header = () => (
-  <HeaderContainer>
+
+  
+    <HeaderContainer>
     <Wrapper>
     <Nav>
       <LogoContainer to="/">
@@ -111,9 +113,14 @@ const Header = () => (
       <NavContactLink href="#contact">Contact Me</NavContactLink>
     </Nav>
     </Wrapper>
-    
+    <Menu/>
   </HeaderContainer>
+  
+
+ 
 )
+
+
 
 
 
