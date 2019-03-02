@@ -1,4 +1,4 @@
-(function(){
+const MenuInteraction = (function(){
   
 
     class Component {
@@ -47,3 +47,5 @@
     jsMenuNode.querySelector('.js-menu__toggle').addEventListener('click', callMenuToggle);
   
   })();
+
+module.exports =  {MenuInteraction}

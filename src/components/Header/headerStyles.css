@@ -80,8 +80,7 @@ LEVEL 2. MENU STYLES
     display: none;
   
     padding-top: 30px;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
+  
   }
   
   .menu__group{
@@ -113,11 +112,11 @@ LEVEL 2. MENU STYLES
     content :"";
     width: 100px;
     height: 100px;
-    background-color: #183FA6;
+    background-color: #0C1E4C;
     border-radius: 50%;
   
     position: absolute;
-    bottom: -65px;
+    bottom: -54px;
     left: -35px;
   }
   
@@ -125,13 +124,13 @@ LEVEL 2. MENU STYLES
     width: 1.4em;
     height: 1em;
     font-size: 20px;
-    top: 4px;
+    top: -4px;
     position: relative;
     text-indent: -9999px;
     z-index: 2;
   }
   
-  .hamburger__button:before,  .hamburger__label{
+  .hamburger__button:before, .hamburger__button:after, .hamburger__label{
     width: 100%;
     height: 2px;
    
@@ -150,7 +149,7 @@ LEVEL 2. MENU STYLES
   }
   
   .hamburger__button:after{
-    bottom: 0;
+    bottom: 2px;
   }
   
   .hamburger__button:focus{
@@ -238,3 +237,4 @@ LEVEL 3. MOBILE ANIMATION STYLES
   .hamburger__label{
     transition-property: transform, opacity;
   }
+
