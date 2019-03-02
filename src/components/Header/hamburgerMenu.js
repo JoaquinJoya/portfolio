@@ -4,54 +4,55 @@ import "./headerStyles.css"
 import "./hamburgerInteraction.js"
 
 
-(function(){
-    
+window.onload=function(){
   
-    class MenuComponent {
-          
-      printError(error) {
-   
-        if (typeof error !== 'string' || error.length === 0) {
-          return console.log('you did not give arguments');
-        }
+
+  class Component {
         
-        return console.log(error);
-      }    
+    printError(error) {
+ 
+      if (typeof error !== 'string' || error.length === 0) {
+        return console.log('you did not give arguments');
+      }
       
-      toggleСlass(node, className) {
-        return  node.classList.toggle(className);
-      }    
+      return console.log(error);
+    }    
+    
+    toggleСlass(node, className) {
+      return  node.classList.toggle(className);
+    }    
+  }
+  
+  class MenuToggle extends Component {
+    
+    constructor(settings) {
+      super();
+      this.menuNode = settings.menuNode;
     }
-
-    class HamMenu extends MenuComponent {
     
-        constructor(settings) {
-          super();
-          this.menuNode = settings.menuNode;
-        }
-        
-        toggleMenuState(className) {      
-          
-          if (typeof className !== 'string' || className.length === 0){
-            return super.printError('you did not give the class name for the toggleState function');
-          } 
-          
-          return super.toggleСlass(this.menuNode, className);
-        }
-      }
+    toggleMenuState(className) {      
+      
+      if (typeof className !== 'string' || className.length === 0){
+        return super.printError('you did not give the class name for the toggleState function');
+      } 
+      
+      return super.toggleСlass(this.menuNode, className);
+    }
+  }
 
-      let jsMenuNode = document.querySelector('body');
-    
-      let demoMenu = new HamMenu ({
-        menuNode: jsMenuNode
-      });
-      function callMenuToggle() {
-        demoMenu.toggleMenuState('js-menu_activated');
-      }
-      jsMenuNode.querySelector('.js-menu__toggle').addEventListener('click', callMenuToggle);
+  let jsMenuNode = document.querySelector('body');
+  
+  let demoMenu = new MenuToggle ({
+    menuNode: jsMenuNode
+  });
+  
+  function callMenuToggle() {
+    demoMenu.toggleMenuState('js-menu_activated');
+  }
+  
+  jsMenuNode.querySelector('.js-menu__toggle').addEventListener('click', callMenuToggle);
 
-
-  })();
+};
 
 const Menu = () => (
     <header className="header">
