@@ -2,21 +2,24 @@ import { Link } from "gatsby"
 import React from "react"
 import "./headerStyles.css"
 
-
-window.onload=function(){
+ 
+/*
+(function(){
   
 
 
-var menuIn = document.querySelector('.HeaderActivated')
+    var menuIn = document.querySelector('.HeaderActivated')
+    
+   
+        function toggleMenu(){
+            menuIn.classList.toggle('js-menu_activated');
+          } 
+          menuIn.querySelector('.js-menu__toggle').addEventListener('click', toggleMenu);
+    
 
-function toggleMenu(){
-  menuIn.classList.toggle('js-menu_activated');
-} 
-menuIn.querySelector('.js-menu__toggle').addEventListener('click', toggleMenu);
-
-
-};
-
+    
+    
+    })();*/
 
 
 const Menu = () => (
@@ -36,7 +39,9 @@ const Menu = () => (
             </ul>
 
         </nav>
+        
     </header>
+
 ) 
 
 
