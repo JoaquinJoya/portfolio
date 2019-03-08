@@ -1,20 +1,21 @@
 import { Link } from "gatsby"
 import React from "react"
 import "./headerStyles.css"
-/*
-(window.toggleMenu=function(){
+
+
+window.onload=function(){
   
 
 
-    var menuIn = document.querySelector('.HeaderActivated')
-    
-    function toggleMenu(){
-      menuIn.classList.toggle('js-menu_activated');
-    } 
-    menuIn.querySelector('.js-menu__toggle').addEventListener('click', toggleMenu);
-    
-    
-    })();*/
+var menuIn = document.querySelector('.HeaderActivated')
+
+function toggleMenu(){
+  menuIn.classList.toggle('js-menu_activated');
+} 
+menuIn.querySelector('.js-menu__toggle').addEventListener('click', toggleMenu);
+
+
+};
 
 
 
