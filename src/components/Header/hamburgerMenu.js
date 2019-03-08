@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import "./headerStyles.css"
-import "./hamburgerInteraction.js"
+
 
 (function(){
   
