@@ -1,4 +1,5 @@
 const MenuInteraction = (function(){
+  'use strict';
 
   class Component {
         
@@ -33,21 +34,17 @@ const MenuInteraction = (function(){
     }
   }
 
-  componentDidMount(){
-    let jsMenuNode = document.querySelector('body');
+  let jsMenuNode = document.querySelector('body');
   
-    let demoMenu = new Menu ({
-      menuNode: jsMenuNode
-    });
-    
-    function callMenuToggle() {
-      demoMenu.toggleMenuState('js-menu_activated');
-    }
-    
-    jsMenuNode.querySelector('.js-menu__toggle').addEventListener('click', callMenuToggle);
+  let demoMenu = new Menu ({
+    menuNode: jsMenuNode
+  });
+  
+  function callMenuToggle() {
+    demoMenu.toggleMenuState('js-menu_activated');
   }
-
- 
+  
+  jsMenuNode.querySelector('.js-menu__toggle').addEventListener('click', callMenuToggle);
 })();
 
 export default MenuInteraction
