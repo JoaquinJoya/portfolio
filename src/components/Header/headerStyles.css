@@ -84,9 +84,10 @@ LEVEL 2. MENU STYLES
   }
   
   .menu__group{
-    padding: .5rem 3rem; 
+    padding: 1.2rem 3rem; 
     font-size: 3.2rem;
     font-weight: 700;
+    font-family: "Steradian";
     text-transform: uppercase;
   }
   
@@ -238,3 +239,10 @@ LEVEL 3. MOBILE ANIMATION STYLES
     transition-property: transform, opacity;
   }
 
+/*MEDIA QUERIES*/
+
+@media (min-width: 1024px) {
+  .header-mobile {
+    display: none;
+  }
+}

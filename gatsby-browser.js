@@ -22,4 +22,12 @@ exports.onInitialClientRender = () => {
         
         
         })();
+
+        document.onkeydown = function(evt) {
+            evt = evt || window.event;
+            var mobileMenuClass = document.querySelector('.HeaderActivated');
+            if (evt.keyCode === 27) {
+                mobileMenuClass.classList.remove("js-menu_activated")
+            }
+        };
   }

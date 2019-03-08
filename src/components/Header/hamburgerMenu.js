@@ -23,7 +23,7 @@ import "./headerStyles.css"
 
 
 const Menu = () => (
-    <header className="header">
+    <header className="header header-mobile">
         <div className="hamburger">
             <button className="button hamburger__button js-menu__toggle">
                 <span className="hamburger__label">Open Menu</span>
