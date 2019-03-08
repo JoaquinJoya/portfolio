@@ -1,42 +1,42 @@
 const MenuInteraction = (function(){
-  
 
-    class Component {
-          
-      printError(error) {
-   
-        if (typeof error !== 'string' || error.length === 0) {
-          return console.log('you did not give arguments');
-        }
+  class Component {
         
-        return console.log(error);
-      }    
+    printError(error) {
+ 
+      if (typeof error !== 'string' || error.length === 0) {
+        return console.log('you did not give arguments');
+      }
       
-      toggleСlass(node, className) {
-        return  node.classList.toggle(className);
-      }    
-    }
+      return console.log(error);
+    }    
     
-    class MenuToggle extends Component {
-      
-      constructor(settings) {
-        super();
-        this.menuNode = settings.menuNode;
-      }
-      
-      toggleMenuState(className) {      
-        
-        if (typeof className !== 'string' || className.length === 0){
-          return super.printError('you did not give the class name for the toggleState function');
-        } 
-        
-        return super.toggleСlass(this.menuNode, className);
-      }
-    }
+    toggleСlass(node, className) {
+      return  node.classList.toggle(className);
+    }    
+  }
   
-    let jsMenuNode = document.querySelector('body');
+  class Menu extends Component {
     
-    let demoMenu = new MenuToggle ({
+    constructor(settings) {
+      super();
+      this.menuNode = settings.menuNode;
+    }
+    
+    toggleMenuState(className) {      
+      
+      if (typeof className !== 'string' || className.length === 0){
+        return super.printError('you did not give the class name for the toggleState function');
+      } 
+      
+      return super.toggleСlass(this.menuNode, className);
+    }
+  }
+
+  componentDidMount(){
+    let jsMenuNode = document.querySelector('body');
+  
+    let demoMenu = new Menu ({
       menuNode: jsMenuNode
     });
     
@@ -45,7 +45,9 @@ const MenuInteraction = (function(){
     }
     
     jsMenuNode.querySelector('.js-menu__toggle').addEventListener('click', callMenuToggle);
-  
-  })();
+  }
 
-module.exports =  {MenuInteraction}
+ 
+})();
+
+export default MenuInteraction

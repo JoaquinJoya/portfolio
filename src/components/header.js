@@ -95,7 +95,7 @@ const HeaderContainer = styled.header `
 const Header = () => (
 
   
-    <HeaderContainer>
+    <HeaderContainer className="HeaderActivated">
     <Wrapper>
     <Nav>
       <LogoContainer to="/">

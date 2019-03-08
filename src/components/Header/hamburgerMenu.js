@@ -3,11 +3,11 @@ import React from "react"
 import "./headerStyles.css"
 import "./hamburgerInteraction.js"
 
-window.onload=function(){
+(function(){
   
 
 
-var menuIn = document.querySelector('body')
+var menuIn = document.querySelector('.HeaderActivated')
 
 function toggleMenu(){
   menuIn.classList.toggle('js-menu_activated');
@@ -15,7 +15,7 @@ function toggleMenu(){
 menuIn.querySelector('.js-menu__toggle').addEventListener('click', toggleMenu);
 
 
-};
+})()
 
 
 
