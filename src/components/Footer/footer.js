@@ -5,7 +5,7 @@ import React from "react"
 import "../../css/styles.css"
 import colors from "../../css/colors.js"
 import { device } from "../../css/devices"
-import { Wrapper, Section } from "../styledComponents/styledComponents"
+import { Wrapper, Section } from "../styledComponents/styledComponents.js"
 import CTAFooter from "./CTAFooter.js"
 
 
