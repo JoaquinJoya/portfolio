@@ -6,7 +6,7 @@ import { device } from "../../css/devices"
 
 
 export const Section = styled.section`
- background: ${props => props.blue ? "#0F2254": "white"};
+ background: ${props => props.blue ? "#0F2254": "#fff"};
  padding: 140px 0;
 `
 
