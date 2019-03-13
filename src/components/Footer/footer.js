@@ -1,4 +1,4 @@
-import { Link } from "gatsby"
+/*import { Link } from "gatsby"
 import logo from "../../images/logo.svg"
 import styled from "styled-components"
 import React from "react"
@@ -23,4 +23,4 @@ const Footer = () => (
 )
 
 
-export default Footer
+export default Footer*/
