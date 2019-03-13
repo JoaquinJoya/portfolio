@@ -84,8 +84,8 @@ LEVEL 2. MENU STYLES
   }
   
   .menu__group{
-    padding: 1.2rem 3rem; 
-    font-size: 3.2rem;
+    padding: .8rem 1.5rem; 
+    font-size: 2rem;
     font-weight: 700;
     font-family: "Steradian";
     text-transform: uppercase;
@@ -122,8 +122,8 @@ LEVEL 2. MENU STYLES
   }
   
   .hamburger__button{
-    width: 1.4em;
-    height: 1em;
+    width: 29px;
+    height: 20px;
     font-size: 20px;
     top: -4px;
     position: relative;
@@ -134,9 +134,8 @@ LEVEL 2. MENU STYLES
   .hamburger__button:before, .hamburger__button:after, .hamburger__label{
     width: 100%;
     height: 2px;
-   
+
     background-color: #fff;
-  
     position: absolute;
     left: 0;
   }
