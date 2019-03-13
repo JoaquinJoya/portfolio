@@ -13,21 +13,13 @@ const Footer = () => (
 
 <footer>
     <Section blue>
-        
             <CTAFooter/>
-        
     </Section>
     
 </footer>
 
-
-  
-
  
 )
-
-
-
 
 
 export default Footer

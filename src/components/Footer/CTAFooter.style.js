@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import styled from "styled-components"
 import colors from "../../css/colors.js"
 import { device } from "../../css/devices"

@@ -1,6 +1,4 @@
-import styled from "styled-components"
 import React from "react"
-import { Link } from "gatsby"
 import { Wrapper } from "../styledComponents/styledComponents"
 import { Title, Text } from "./CTAFooter.style"
 const CTAFooter = () => (
