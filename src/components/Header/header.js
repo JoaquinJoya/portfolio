@@ -8,7 +8,7 @@ import { Nav, ListNavContainer, NavItem, NavItemLink, NavContactLink,
   LogoContainer, HeaderContainer, 
 
 } from "./header.style"
-import { Wrapper } from "../styledComponents/styledComponents"
+import { Wrapper } from "../styledComponents/styledComponents.js"
 
 
 

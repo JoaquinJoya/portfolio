@@ -13,7 +13,7 @@ const Footer = () => (
 
 <footer>
     <Section blue>
-            <CTAFooter/>
+        <CTAFooter/>
     </Section>
     
 </footer>
