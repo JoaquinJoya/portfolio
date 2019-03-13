@@ -1,11 +1,11 @@
-/*import { Link } from "gatsby"
+import { Link } from "gatsby"
 import logo from "../../images/logo.svg"
 import styled from "styled-components"
 import React from "react"
 import "../../css/styles.css"
 import colors from "../../css/colors.js"
 import { device } from "../../css/devices"
-import { Wrapper, Section } from "../styledComponents/styledComponents.js"
+import { Wrapper, Section } from "../StyledComponents/styledComponents.js"
 import CTAFooter from "./CTAFooter.js"
 
 
@@ -23,4 +23,4 @@ const Footer = () => (
 )
 
 
-export default Footer*/
+export default Footer

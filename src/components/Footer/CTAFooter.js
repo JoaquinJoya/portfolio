@@ -1,5 +1,5 @@
 import React from "react"
-import { Wrapper } from "../styledComponents/styledComponents.js"
+import { Wrapper } from "../StyledComponents/styledComponents.js"
 import { Title, Text } from "./CTAFooter.style"
 const CTAFooter = () => (
     
