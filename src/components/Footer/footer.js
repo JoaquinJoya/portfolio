@@ -13,7 +13,6 @@ const Footer = () => (
 
 <footer>
     <Section blue>
-	Hello
         <CTAFooter/>
     </Section>
     
