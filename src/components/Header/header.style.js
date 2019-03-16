@@ -59,9 +59,6 @@ export const NavContactLink = styled.a`
   color:${colors.blueBohemian};
 `
 
-export const LogoContainer = styled(Link)`
-  height: 100%;
-`;
 
 export const HeaderContainer = styled.header `
   display: flex;

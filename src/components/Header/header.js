@@ -5,10 +5,10 @@ import "../../css/styles.css"
 import "./headerStyles.css"
 import Menu from "./hamburgerMenu.js"
 import { Nav, ListNavContainer, NavItem, NavItemLink, NavContactLink,
-  LogoContainer, HeaderContainer, 
+ HeaderContainer, 
 
 } from "./header.style"
-import { Wrapper } from "../StyledComponents/styledComponents.js"
+import { Wrapper, LogoContainer } from "../StyledComponents/styledComponents.js"
 
 
 
@@ -30,7 +30,7 @@ const Header = () => (
           <NavItem><NavItemLink to="/">Blog</NavItemLink></NavItem>
       </ListNavContainer>
 
-      <NavContactLink href="#contact">Contact Me</NavContactLink>
+      <NavContactLink href="mailto:contact@joaquinjoyareal.com">Contact Me</NavContactLink>
     </Nav>
     </Wrapper>
     <Menu/>

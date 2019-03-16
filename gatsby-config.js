@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Joaquin Joya`,
     description: `Hello there, I’m Joaquin Joya an Interface Designer & Frontend Developer based on Mexico City, enthusiastic to build and enhance products for people.`,
-    author: `@gatsbyjs`,
+    author: `@joaquinjoyareal`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     }, `gatsby-plugin-styled-components`,
     // this (optional) plugin enables Progressive Web App + Offline functionality

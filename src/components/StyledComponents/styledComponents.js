@@ -29,3 +29,8 @@ export const Wrapper = styled.div `
   
   
 `;
+
+
+export const LogoContainer = styled(Link)`
+  height: 100%;
+`;
