@@ -15,7 +15,6 @@ justify-content: space-between;
 
 export const ListNavContainer = styled.ul`
   
-    
     list-style: none;
     margin: 0;
     padding: 0;
