@@ -67,7 +67,7 @@ export const LogoContainer = styled(Link)`
 export const Title = styled.h1`
   font-size: 40px;
   font-family: "Steradian", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;;
+    Ubuntu, Cantarell, Fira Sans, Helvetica, sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: -0.02em;
@@ -103,12 +103,12 @@ export const OutlineText = styled.span`
 `
 
 export const BigText = styled.p`
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Steradian", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;;
+    Ubuntu, Cantarell, Fira Sans, Helvetica, sans-serif;
   font-weight: 400;
   color: ${colors.blueBohemian};
-  line-height: 27px;
+  line-height: 30px;
 
   @media ${device.tablet} {
     font-size: 18px;
@@ -127,7 +127,7 @@ export const StrikeThrough = styled.span`
   text-decoration: line-through;
 `
 export const ContactMe = styled.a`
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Steradian";
     font-weight: 900;
     color: ${colors.blueBohemian};
