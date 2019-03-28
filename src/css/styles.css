@@ -7,6 +7,8 @@
     src: local('Steradian')
          url('../fonts/SteradianBlack.woff2') format('woff2'), /* Super Modern Browsers */
          url('../fonts/SteradianBlack.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/SteradianBlack.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/SteradianBlack.svg#svgFontName') format('svg'); /* Legacy iOS */
      
   }
 
@@ -19,6 +21,8 @@
     src: local('Steradian')
          url('../fonts/SteradianMedium.woff2') format('woff2'), /* Super Modern Browsers */
          url('../fonts/SteradianMedium.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/SteradianMedium.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/SteradianMedium.svg#svgFontName') format('svg'); /* Legacy iOS */
         
   }
 
@@ -31,5 +35,8 @@
     src: local('Steradian')
          url('../fonts/SteradianRegular.woff2') format('woff2'), /* Super Modern Browsers */
          url('../fonts/SteradianRegular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/SteradianRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/SteradianRegular.svg#svgFontName') format('svg'); /* Legacy iOS */
+         
   }
 
