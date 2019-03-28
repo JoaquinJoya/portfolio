@@ -1,39 +1,36 @@
 @font-face {
     font-family: 'Steradian';
     font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-    src: local('Steradian')
+    font-display: auto;
+    src: url('../fonts/SteradianBlack.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/SteradianBlack.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('../fonts/SteradianBlack.woff2') format('woff2'), /* Super Modern Browsers */
          url('../fonts/SteradianBlack.woff') format('woff'), /* Pretty Modern Browsers */
          url('../fonts/SteradianBlack.ttf')  format('truetype'), /* Safari, Android, iOS */
          url('../fonts/SteradianBlack.svg#svgFontName') format('svg'); /* Legacy iOS */
-     
   }
 
   @font-face {
     font-family: 'Steradian';
     font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-    src: local('Steradian')
+    font-display: auto;
+    src: url('../fonts/SteradianMedium.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/SteradianMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('../fonts/SteradianMedium.woff2') format('woff2'), /* Super Modern Browsers */
          url('../fonts/SteradianMedium.woff') format('woff'), /* Pretty Modern Browsers */
          url('../fonts/SteradianMedium.ttf')  format('truetype'), /* Safari, Android, iOS */
          url('../fonts/SteradianMedium.svg#svgFontName') format('svg'); /* Legacy iOS */
-        
   }
 
   @font-face {
     font-family: 'Steradian';
     font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-    src: local('Steradian')
+    font-display: auto;
+    src: url('../fonts/SteradianRegular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/SteradianRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('../fonts/SteradianRegular.woff2') format('woff2'), /* Super Modern Browsers */
          url('../fonts/SteradianRegular.woff') format('woff'), /* Pretty Modern Browsers */
          url('../fonts/SteradianRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
          url('../fonts/SteradianRegular.svg#svgFontName') format('svg'); /* Legacy iOS */
-         
   }
 
