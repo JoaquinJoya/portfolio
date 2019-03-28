@@ -104,9 +104,6 @@ export const FooterNav = styled.div`
 
     @media ${device.tablet} {
         flex-direction: row;
-        
-    
-    
     }
 
     @media ${device.laptop} {

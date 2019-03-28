@@ -63,4 +63,7 @@ export const HeaderContainer = styled.header `
   display: flex;
   justify-content: center;
   padding: 32px 0;
+  position: absolute;
+  left: 0;
+  width: 100%;
 `;
