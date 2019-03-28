@@ -136,7 +136,8 @@ export const ContactMe = styled.a`
 
     @media ${device.tablet} {
     font-size: 18px;
-    
+    font-family: "Steradian";
+    font-weight: 900;
   }
 
     @media ${device.laptopL} {
