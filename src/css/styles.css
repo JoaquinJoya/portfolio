@@ -34,3 +34,6 @@
          url('../fonts/SteradianRegular.svg#svgFontName') format('svg'); /* Legacy iOS */
   }
 
+.selected-work-title {
+     margin-top: -74px;
+}

@@ -62,17 +62,17 @@ export const LogoContainer = styled(Link)`
   height: 100%;
 `;
 
-{/*Title*/}
+{/*Titles*/}
 
 export const Title = styled.h1`
-  font-size: 40px;
+  font-size: 54px;
   font-family: "Steradian", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Helvetica, sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: -0.02em;
   color: ${colors.blueBohemian};
-  line-height: 36px;
+  line-height: 48px;
 
   margin-bottom: 20px;
 
@@ -87,6 +87,12 @@ export const Title = styled.h1`
   }
 
 `
+
+export const SubTitle = styled(Title)`
+  font-size: 44px;
+  text-transform: none;
+`
+
 
 export const OutlineText = styled.span`
   -webkit-text-stroke-width: 1px;

@@ -1,14 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import "../css/styles.css"
 import Helmet from "react-helmet"
+import Img from 'gatsby-image'
+import CardWork from '../components/Work/CardWork.js'
 
-import { SectionPink, Wrapper, Title, OutlineText, HeroContainer, 
-        BigText, StrikeThrough, ContactMe
+import { Section, SectionPink, Wrapper, Title, OutlineText, HeroContainer, 
+        BigText, StrikeThrough, ContactMe, SubTitle
 } from "../components/StyledComponents/styledComponents.js"
 import { TextHeroContainer} from "../components/Pages/Home.style.js"
 
@@ -17,7 +19,7 @@ const IndexPage = () => (
     <SEO title="Joaquin Joya" keywords={[`Product Design`, `UX Design`, `UI Design`]} />
     <Helmet titleTemplate={`Joaquin Joya | Product Designer and Frontend Developer`}/>
 
-    <SectionPink>
+    <SectionPink id="Hero">
       <Wrapper>
         <HeroContainer>
           <Title>Remember Me From <br/> <OutlineText>The Future</OutlineText></Title>
@@ -32,12 +34,19 @@ const IndexPage = () => (
         </HeroContainer>
         
 
-
         
       </Wrapper>
       
     </SectionPink>
-    
+    <Section>
+      <Wrapper>
+            <SubTitle ClassName="selected-work-title">Selected Work</SubTitle>
+            <CardWork/>
+      </Wrapper>
+
+    </Section>
+
+
     <p>Welcome to your new Gatsby site.</p>
         <p>Now go build something great.</p>
         <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
@@ -47,5 +56,7 @@ const IndexPage = () => (
   </Layout>
   
 )
+
+
 
 export default IndexPage
