@@ -13,7 +13,7 @@ import Img from "gatsby-image"
  * - `StaticQuery`: https://gatsby.app/staticquery
  */
 
-const Image = (props) => (
+const PortfolioImage = (props) => (
   <StaticQuery
     query={graphql`
       query {
@@ -23,7 +23,7 @@ const Image = (props) => (
               relativePath
               name
               childImageSharp {
-                sizes(maxWidth: 600) {
+                sizes(maxWidth: 1600) {
                   ...GatsbyImageSharpSizes
                 }
               }
@@ -49,4 +49,4 @@ const Image = (props) => (
     }}
   />
 )
-export default Image
+export default PortfolioImage

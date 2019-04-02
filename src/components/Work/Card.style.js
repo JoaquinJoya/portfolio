@@ -7,7 +7,9 @@ import { Link } from "gatsby"
 
 
 export const CardContainer = styled.div`
-
+    padding: 0 0 48px 0;
+    border-bottom: 1px solid #BDC3D0;
+    margin: 0 0 64px 0;
 
 `
 
@@ -58,8 +60,11 @@ export const ReadCase = styled(Link)`
 
 `
 
-export const ViewSite = styled(ReadCase)`
+export const ViewSite = styled.a`
+    font-size: 18px;
+    font-family: "Steradian", "sans-serif";
     font-weight: 400;
     color: ${colors.nada};
+    text-decoration: underline;
 
 `

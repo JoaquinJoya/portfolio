@@ -91,11 +91,12 @@ export const Title = styled.h1`
 export const SubTitle = styled(Title)`
   font-size: 44px;
   text-transform: none;
+  margin-top: ${props => props.work ? "-74px" : "0"};
 `
 
 
 export const OutlineText = styled.span`
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: ${colors.blueBohemian};
     color: transparent;
 
