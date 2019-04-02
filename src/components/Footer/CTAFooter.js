@@ -1,20 +1,22 @@
 import React from "react"
 import { Wrapper, Section } from "../StyledComponents/styledComponents.js"
 
-import { Title, Text, ContactContainer, ContactButton } from "./CTAFooter.style"
+import { Title, Text, ContactContainer, ContactButton, SectionCTA, TextContainer } from "./CTAFooter.style"
 const CTAFooter = () => (
-    <Section blue>
+    <SectionCTA blue>
         <Wrapper>
-            <Title>Want to work with me?</Title>
-            <Text><b>Let’s work together</b>, If you want to build or 
-                refine your product, website or app. feel free to contact me, I would love to hear how can I help you. Currently available for freelance projects, send me a message to get in touch!
-            </Text>
+            <TextContainer>
+                <Title>Want to work with me?</Title>
+                <Text><b>Let’s work together</b>, If you want to build or 
+                    refine your product, website or app. feel free to contact me, I would love to hear how can I help you. Currently available for freelance projects, send me a message to get in touch!
+                </Text>
+            </TextContainer> 
             <ContactContainer>
                 <ContactButton href="mailto:contact@joaquinjoyareal.com">Contact Me</ContactButton>
+                <Text>contact@joaquinjoyareal.com</Text>
             </ContactContainer>
-            <Text>contact@joaquinjoyareal.com</Text>
         </Wrapper>
-    </Section>
+    </SectionCTA>
     
         
 
