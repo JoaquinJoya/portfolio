@@ -91,7 +91,26 @@ export const Title = styled.h1`
 export const SubTitle = styled(Title)`
   font-size: 44px;
   text-transform: none;
-  margin-top: ${props => props.work ? "-74px" : "0"};
+    
+
+
+`
+export const SubTitleWork = styled(SubTitle)`
+  margin: -74px 0 60px 0;
+  text-align: center;
+
+  @media ${device.tablet} {
+    
+    text-align: right;
+
+    }
+  @media ${device.laptopL} {
+    margin: -102px 0 90px 0;
+    text-align: right;
+
+    }
+
+
 `
 
 
@@ -152,4 +171,17 @@ export const ContactMe = styled.a`
         
 
     }
+`
+
+export const LinkCont = styled(Link) `
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    font-family: "Steradian", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    text-decoration: underline;
+    color: ${colors.blueDark};
+    @media ${device.laptop} {
+        font-size: 27px;
+        }
+
 `

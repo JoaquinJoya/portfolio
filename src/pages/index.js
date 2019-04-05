@@ -6,14 +6,13 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import "../css/styles.css"
 import Helmet from "react-helmet"
-import Img from 'gatsby-image'
 import CardWork from '../components/Work/CardWork.js'
-import PortfolioImage from "../components/Images/PortfolioImages.js"
+
 
 import { Section, SectionPink, Wrapper, Title, OutlineText, HeroContainer, 
-        BigText, StrikeThrough, ContactMe, SubTitle
+        BigText, StrikeThrough, ContactMe, SubTitle, LinkCont, SubTitleWork
 } from "../components/StyledComponents/styledComponents.js"
-import { TextHeroContainer} from "../components/Pages/Home.style.js"
+import { TextHeroContainer, WorkContainer, ViewMoreContainer} from "../components/Pages/Home.style.js"
 
 const IndexPage = () => (
   <Layout>
@@ -22,6 +21,7 @@ const IndexPage = () => (
 
     <SectionPink id="Hero">
       <Wrapper>
+       
         <HeroContainer>
           <Title>Remember Me From <br/> <OutlineText>The Future</OutlineText></Title>
             <TextHeroContainer>
@@ -41,29 +41,44 @@ const IndexPage = () => (
     </SectionPink>
     <Section>
       <Wrapper>
-            <SubTitle work>Selected Work</SubTitle>
-            <CardWork 
-              alt="Coming Soon" filename="coming-soon-1.png" 
-              category="Product Design / UX / UI"
-              title="Projects Coming Soon 1"
-              tagline="Uplead is a lead generation platform that connects you to the right contacts"
-              case="/" web="https://www.instagram.com/joaquinjoyareal/"
-            />
-            <CardWork 
-              alt="Coming Soon" filename="coming-soon-2.png" 
-              category="Product Design / UX / UI"
-              title="Projects Coming Soon 2"
-              tagline="Uplead is a lead generation platform that connects you to the right contacts"
-              case="/" web="https://www.instagram.com/joaquinjoyareal/"
-            />
-            <CardWork 
-              alt="Coming Soon" filename="coming-soon-3.png" 
-              category="Product Design / UX / UI"
-              title="Projects Coming Soon 3"
-              tagline="Uplead is a lead generation platform that connects you to the right contacts"
-              case="/" web="https://www.instagram.com/joaquinjoyareal/"
-            />
-            
+          <SubTitleWork>Selected Work</SubTitleWork>
+         <WorkContainer>
+         
+              <CardWork 
+                alt="Coming Soon" filename="coming-soon-1.png" 
+                category="Product Design / UX / UI"
+                title="Projects Coming Soon 1"
+                tagline="Uplead is a lead generation platform that connects you to the right contacts"
+                case="/" web="https://www.instagram.com/joaquinjoyareal/"
+              />
+              <CardWork 
+                alt="Coming Soon" filename="coming-soon-2.png" 
+                category="Product Design / UX / UI"
+                title="Projects Coming Soon 2"
+                tagline="Uplead is a lead generation platform that connects you to the right contacts"
+                case="/" web="https://www.instagram.com/joaquinjoyareal/"
+              />
+              <CardWork 
+                alt="Coming Soon" filename="coming-soon-3.png" 
+                category="Product Design / UX / UI"
+                title="Projects Coming Soon 3"
+                tagline="Uplead is a lead generation platform that connects you to the right contacts"
+                case="/" web="https://www.instagram.com/joaquinjoyareal/"
+              />
+              <CardWork 
+                alt="Coming Soon" filename="coming-soon-3.png" 
+                category="Product Design / UX / UI"
+                title="Projects Coming Soon 4"
+                tagline="Uplead is a lead generation platform that connects you to the right contacts"
+                case="/" web="https://www.instagram.com/joaquinjoyareal/"
+              />
+              
+              
+          </WorkContainer>
+          <ViewMoreContainer>
+           <LinkCont to="/">View More Work</LinkCont>
+          </ViewMoreContainer>
+          
             
             
       </Wrapper>

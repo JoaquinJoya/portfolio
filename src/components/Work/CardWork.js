@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 import { StaticQuery, graphql } from "gatsby"
 import { CardContainer, TextContainer, CardTitle
         , Category, Text, LinksContainer, ReadCase,
-        ViewSite
+        ViewSite, ImageContainer
 } from "./Card.style.js"
 import PortfolioImage from "../Images/PortfolioImages.js"
 
@@ -13,8 +13,9 @@ import PortfolioImage from "../Images/PortfolioImages.js"
 const CardWork = ( props ) => (
     
     <CardContainer>
-         <PortfolioImage filename={props.filename} alt={props.alt} sizes={props.sizes}/>
-
+        <ImageContainer>
+            <PortfolioImage ClassName="PortfolioImage" filename={props.filename} alt={props.alt} sizes={props.sizes}/>
+        </ImageContainer>
         <TextContainer>
             <Category>{props.category}</Category>
             <CardTitle>{props.title}</CardTitle>

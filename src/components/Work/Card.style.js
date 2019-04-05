@@ -11,10 +11,23 @@ export const CardContainer = styled.div`
     border-bottom: 1px solid #BDC3D0;
     margin: 0 0 64px 0;
 
+    @media ${device.laptop} {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 34% 64%;
+        grid-gap: 27px;
+        
+
+    }
+   
+
 `
 
 export const TextContainer = styled.div `
 
+    @media ${device.laptop} {
+            order: 1;
+        }
 `
 export const CardTitle = styled.h3`
     font-size: 24px;
@@ -67,4 +80,10 @@ export const ViewSite = styled.a`
     color: ${colors.nada};
     text-decoration: underline;
 
+`
+
+export const ImageContainer = styled.div`
+    @media ${device.laptop} {
+        order: 2;
+    }
 `
