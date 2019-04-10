@@ -11,7 +11,13 @@ export const Title = styled.h2 `
     line-height: 48px;
     color: ${colors.pinkGoldfish};
     margin: 0 0 20px 0;
-    @media ${device.laptop} {
+
+    @media ${device.tablet} {
+        font-size: 48px;
+    }
+
+
+    @media ${device.laptopL} {
         font-size: 60px;
     }
     

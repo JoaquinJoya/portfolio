@@ -24,6 +24,11 @@ export const Wrapper = styled.div `
   padding: 0 20px;
   width: 100%;
 
+  @media ${device.mobileL} {
+    padding: 0 24px;
+    width: 90%;
+
+  }
 
   @media ${device.tablet} {
     max-width: 90%;
@@ -37,6 +42,11 @@ export const Wrapper = styled.div `
   
   
 `;
+
+export  const FlexCenter = styled.div`
+    display: flex;
+    justify-content: center;
+`
 
 
 {/*Containers*/}
@@ -113,6 +123,16 @@ export const SubTitleWork = styled(SubTitle)`
 
 `
 
+export const SubSubTitle = styled.h3`
+  font-size: 24px;
+  text-transform: none;
+  font-family: "Steradian", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Helvetica, sans-serif;
+  font-weight: 900;
+  color: ${colors.blueBohemian};
+  line-height: 32px;
+  margin: 0 0 8px 0;
+`
 
 export const OutlineText = styled.span`
   -webkit-text-stroke-width: 1.5px;
@@ -146,6 +166,15 @@ export const BigText = styled.p`
         line-height: 40px;
 
     }
+`
+
+export const Text = styled(BigText)`
+  @media ${device.laptopL} {
+          font-size: 18px;
+          line-height: 30px;
+
+      }
+
 `
 
 export const StrikeThrough = styled.span`
@@ -185,3 +214,4 @@ export const LinkCont = styled(Link) `
         }
 
 `
+

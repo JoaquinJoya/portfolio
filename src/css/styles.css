@@ -42,3 +42,11 @@ body {
      
      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
    }
+
+.ProcessText {
+     margin: 0 0 48px 0;
+}
+
+#ProcessSection {
+     margin: 140px 0;
+}

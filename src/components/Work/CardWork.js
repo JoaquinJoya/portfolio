@@ -1,8 +1,4 @@
 import React from "react"
-import styled from "styled-components" 
-import { device } from "../../css/devices"
-import Img from 'gatsby-image'
-import { StaticQuery, graphql } from "gatsby"
 import { CardContainer, TextContainer, CardTitle
         , Category, Text, LinksContainer, ReadCase,
         ViewSite, ImageContainer

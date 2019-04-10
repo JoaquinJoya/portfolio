@@ -46,7 +46,8 @@ export const Text = styled.p`
     font-weight: 400;
     color: ${colors.blueOnix};
     line-height: 27px;
-    margin: 0 0 24px 0;
+    margin: 0 0 48px 0;
+    
 `
 
 export const Category = styled.span`
