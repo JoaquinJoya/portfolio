@@ -13,7 +13,7 @@ import PortfolioImage from "../components/Images/PortfolioImages.js"
 
 import { Section, SectionPink, Wrapper, Title, OutlineText, HeroContainer, 
         BigText, StrikeThrough, ContactMe, SubTitle, LinkCont, SubTitleWork,
-        Text, SubSubTitle, FlexCenter
+        Text, SubSubTitle, FlexCenter, SubTitleBig, LinkBlue
 } from "../components/StyledComponents/styledComponents.js"
 import { TextHeroContainer, WorkContainer,
         ProcessStepsContainer, ProcessContainer
@@ -138,7 +138,17 @@ const IndexPage = () => (
 
     <Section id="AboutMe">
       <Wrapper>
-      <PortfolioImage filename="joaquinjoya-home.jpg" size="788" />
+        <PortfolioImage filename="joaquinjoya-home.jpg" size="788" />
+
+        <SubTitleBig>
+          Is this the real life? Is this just a Fantasy?
+        </SubTitleBig>
+        <Text>
+          From Mexico City, I spend my days working on UX/UI, as well as Frontend Development and Product Design. 
+          After working in my Full-Time Job, I love doing some freelance work with amazing people. During my free time I enjoy learning new things, 
+          not only about design or code, but whatever could be interesting and fun.
+        </Text>
+        <LinkBlue to="/work">Read more about me</LinkBlue>
       </Wrapper>
     </Section>
 

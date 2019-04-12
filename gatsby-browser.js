@@ -5,7 +5,10 @@
  */
 
 // You can delete this file if you're not using it
-exports.onInitialClientRender = () => {
+
+
+  exports.onRouteUpdate = ({ location, prevLocation }) => {
+  
     (function(){
   
 
@@ -30,6 +33,4 @@ exports.onInitialClientRender = () => {
                 mobileMenuClass.classList.remove("js-menu_activated")
             }
         };
-
-        
   }

@@ -98,13 +98,35 @@ export const Title = styled.h1`
 
 `
 
-export const SubTitle = styled(Title)`
+export const SubTitle = styled.h2`
+  font-family: "Steradian", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Helvetica, sans-serif;
+  font-weight: 900;
+  color: ${colors.blueBohemian};
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
   font-size: 44px;
   text-transform: none;
-    
+  line-height: 72px;
+  margin: 0 0 8px 0;
+
+  @media ${device.laptopL} {
+    font-size: 80px;
+    margin: 0 0 48px 0;
+
+    }
 
 
 `
+
+export const SubTitleBig = styled(SubTitle)`
+  font-size: 32px;
+  line-height: 34px;
+  margin: 40px 0 24px 0;
+`
+
+
+
 export const SubTitleWork = styled(SubTitle)`
   margin: -74px 0 60px 0;
   text-align: center;
@@ -214,4 +236,7 @@ export const LinkCont = styled(Link) `
         }
 
 `
-
+export const LinkBlue = styled(LinkCont) `
+  margin: 20px 0 0 0;
+  color: ${colors.liberame};
+`

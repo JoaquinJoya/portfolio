@@ -3,23 +3,7 @@ import React from "react"
 import "./headerStyles.css"
 
  
-/*
-(function(){
-  
 
-
-    var menuIn = document.querySelector('.HeaderActivated')
-    
-   
-        function toggleMenu(){
-            menuIn.classList.toggle('js-menu_activated');
-          } 
-          menuIn.querySelector('.js-menu__toggle').addEventListener('click', toggleMenu);
-    
-
-    
-    
-    })();*/
 
 
 const Menu = () => (
@@ -31,7 +15,7 @@ const Menu = () => (
         </div>
         <nav className="menu">
             <ul className="list menu__list">
-                <li className="menu__group"><Link to="/" className="link menu__link">Home</Link></li>
+                <li className="menu__group"><Link to="/page-2/" className="link menu__link">Home</Link></li>
                 <li className="menu__group"><Link to="/" className="link menu__link">Work</Link></li>
                 <li className="menu__group"><Link to="/" className="link menu__link">About Me</Link></li>
                 <li className="menu__group"><Link to="/" className="link menu__link">Blog</Link></li>
@@ -42,7 +26,12 @@ const Menu = () => (
         
     </header>
 
+
+
+
 ) 
+
+
 
 
 export default Menu

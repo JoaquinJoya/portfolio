@@ -12,15 +12,15 @@ const FooterSocial = () => (
 <FooterSocialContainer>
     <SocialMediaWrapper>
             <SocialLink href="https://www.instagram.com/joaquinjoyareal/">
-                <SocialLogoImg src={instagram}/>
+                <SocialLogoImg src={instagram} alt="@joaquinjoyareal Instagram"/>
             </SocialLink>
             <SocialLink href="https://twitter.com/joaquinjoyareal">
-                <SocialLogoImg src={twitter}/>
+                <SocialLogoImg src={twitter} alt="@joaquinjoyareal Twitter"/>
             </SocialLink>
             <SocialLink href="https://dribbble.com/joaquinjoyareal">
-                <SocialLogoImg src={dribbble}/>
+                <SocialLogoImg src={dribbble} alt="@joaquinjoyareal Dribbble"/>
             </SocialLink> <SocialLink href="https://www.linkedin.com/in/joaquinjoyareal/">
-                <SocialLogoImg src={linkedin}/>
+                <SocialLogoImg src={linkedin} alt="@joaquinjoyareal Linkedin"/>
             </SocialLink>
     </SocialMediaWrapper>
 </FooterSocialContainer>
