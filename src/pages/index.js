@@ -16,7 +16,7 @@ import { Section, SectionPink, Wrapper, Title, OutlineText, HeroContainer,
         Text, SubSubTitle, FlexCenter, SubTitleBig, LinkBlue
 } from "../components/StyledComponents/styledComponents.js"
 import { TextHeroContainer, WorkContainer,
-        ProcessStepsContainer, ProcessContainer
+        ProcessStepsContainer, ProcessContainer, AboutTextContainer, AboutContainer
 } from "../components/Pages/Home.style.js"
 
 const IndexPage = () => (
@@ -136,28 +136,28 @@ const IndexPage = () => (
     </Section>
 
 
-    <Section id="AboutMe">
+    <Section id="AboutMeSection">
       <Wrapper>
-        <PortfolioImage filename="joaquinjoya-home.jpg" size="788" />
-
-        <SubTitleBig>
-          Is this the real life? Is this just a Fantasy?
-        </SubTitleBig>
-        <Text>
-          From Mexico City, I spend my days working on UX/UI, as well as Frontend Development and Product Design. 
-          After working in my Full-Time Job, I love doing some freelance work with amazing people. During my free time I enjoy learning new things, 
-          not only about design or code, but whatever could be interesting and fun.
-        </Text>
-        <LinkBlue to="/work">Read more about me</LinkBlue>
+      <AboutContainer>
+        <PortfolioImage filename="joaquinjoya-home.jpg" sizes="788" />
+          <AboutTextContainer>
+            <SubTitleBig>
+              Is this the real life? Is this just a fantasy?
+            </SubTitleBig>
+            <Text>
+              From Mexico City, I spend my days working on UX/UI, as well as Frontend Development and Product Design. 
+              After working in my Full-Time Job, I love doing some freelance work with amazing people. During my free time I enjoy learning new things, 
+              not only about design or code, but whatever could be interesting and fun.
+            </Text>
+            <LinkBlue to="/work">Read more about me</LinkBlue>
+          </AboutTextContainer>
+      </AboutContainer>
+        
+        
       </Wrapper>
     </Section>
 
-    <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-          <Image />
-        </div>
-        <Link to="/page-2/">Go to page 2</Link>
+    
   </Layout>
   
 )

@@ -14,7 +14,7 @@ export const SectionPink = styled(Section)`
   background: ${colors.pinkSpecial};
   padding: 130px 0 100px 0;
   @media ${device.laptopL} {
-    padding: 200px 0 190px 0;
+    padding: 240px 0 240px 0;
   }
 `
 
@@ -123,12 +123,18 @@ export const SubTitleBig = styled(SubTitle)`
   font-size: 32px;
   line-height: 34px;
   margin: 40px 0 24px 0;
+  @media ${device.laptopL} {
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0px 0 32px 0;
+
+    }
 `
 
 
 
 export const SubTitleWork = styled(SubTitle)`
-  margin: -74px 0 60px 0;
+  margin: -87px 0 60px 0;
   text-align: center;
 
   @media ${device.tablet} {
@@ -137,7 +143,7 @@ export const SubTitleWork = styled(SubTitle)`
 
     }
   @media ${device.laptopL} {
-    margin: -102px 0 90px 0;
+    margin: -91px 0 90px 0;
     text-align: right;
 
     }
@@ -239,4 +245,8 @@ export const LinkCont = styled(Link) `
 export const LinkBlue = styled(LinkCont) `
   margin: 20px 0 0 0;
   color: ${colors.liberame};
+
+  @media ${device.laptop} {
+        font-size: 18px;
+        }
 `

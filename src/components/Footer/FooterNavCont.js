@@ -19,7 +19,7 @@ const FooterNavCont = () => (
             </LogoWrapper>
             <FooterNav>
                     <FooterLink to="/">Home</FooterLink>
-                    <FooterLink to="/">Work</FooterLink>
+                    <FooterLink to="/work">Work</FooterLink>
                     <FooterLink to="/">About Me</FooterLink>
                     <FooterLink to="/">Blog</FooterLink>
                 </FooterNav>

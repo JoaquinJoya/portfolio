@@ -49,3 +49,54 @@ export const Step = styled(Text)`
     line-height: 1;
     margin: 0 0 6px 0;
 `
+
+
+export const AboutContainer = styled.div`
+   display: grid;
+    align-self: center;
+    justify-self: center;
+
+    @media ${device.tablet} {
+    grid-template-columns: 50% 50%;
+    column-gap: 60px;
+   
+   }
+
+    @media ${device.laptop} {
+    width: 780px;
+    grid-template-columns: 50% 50%;
+    column-gap: 60px;
+    margin: 0 auto;
+   }
+
+   @media ${device.laptopL}{
+    width: 900px;
+    grid-template-columns: 40% 60%;
+    column-gap: 80px;
+    margin: 0 auto;
+   
+   }
+
+   
+   
+   
+    
+`
+
+export const AboutTextContainer = styled.div`
+   @media ${device.laptop} {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: flex-end;
+        justify-content: center;
+   }
+   @media ${device.laptopL}{
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: flex-end;
+        justify-content: center;
+   }
+    
+`
