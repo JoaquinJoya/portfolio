@@ -94,6 +94,7 @@ export const Title = styled.h1`
   @media ${device.mobileS} {
     font-size: 48px;
     line-height: 46px;
+  
   }
 
   @media ${device.mobileL} {
