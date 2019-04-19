@@ -31,18 +31,24 @@ export const TextContainer = styled.div `
 `
 export const CardTitle = styled.h3`
     font-size: 24px;
-    font-family: "Steradian", "sans-serif";
+    font-family: "Steradian", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Helvetica, sans-serif;
     font-weight: 900;
     color: ${colors.blueBohemian};
     line-height: 1.25em;
     margin: 0 0 14px 0;
+
+    @media ${device.mobileS} {
+        font-size: 22px;
+    }
 
     
 `
 
 export const Text = styled.p`
     font-size: 18px;
-    font-family: "Steradian", "sans-serif";
+    font-family: "Steradian", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Helvetica, sans-serif;
     font-weight: 400;
     color: ${colors.blueOnix};
     line-height: 27px;

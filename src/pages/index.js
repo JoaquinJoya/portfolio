@@ -139,7 +139,7 @@ const IndexPage = () => (
     <Section id="AboutMeSection">
       <Wrapper>
       <AboutContainer>
-        <PortfolioImage filename="joaquinjoya-home.jpg" sizes="788" />
+        <PortfolioImage filename="joaquinjoya-home.jpg" sizes="788" alt="Joaquin Joya"/>
           <AboutTextContainer>
             <SubTitleBig>
               Is this the real life? Is this just a fantasy?

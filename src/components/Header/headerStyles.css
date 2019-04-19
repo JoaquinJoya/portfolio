@@ -1,7 +1,14 @@
-=====
-LEVEL 1. RESET STYLES
+
+
+
+
+
+
+/*LEVEL 1. RESET STYLES
 =====
 */
+
+
 
 button{
   border: none;
@@ -94,7 +101,8 @@ LEVEL 2. MENU STYLES
     padding: .7rem 1.5rem;
     font-size: 2.2rem;
     font-weight: 700;
-    font-family: "Steradian";
+    font-family: "Steradian", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Helvetica, sans-serif;
     text-transform: uppercase;
   }
   
@@ -290,3 +298,12 @@ LEVEL 3. MOBILE ANIMATION STYLES
     display: none;
   }
 }
+
+@media only screen and (min-width: 320px) {
+  .logo{
+    max-width: 130px;
+    margin-top: 6px;
+  }
+
+}
+    

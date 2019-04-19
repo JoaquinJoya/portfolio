@@ -128,6 +128,12 @@ export const FooterLink = styled(Link)`
     
     
     }
+
+    @media ${device.laptopL} {
+        margin: 0 12px;
+        font-size: 18px;
+    
+    }
 `
 export const SocialMediaWrapper = styled.div`
     display: flex;
@@ -139,7 +145,7 @@ export const SocialLink = styled.a`
     margin: 0 12px;
     line-height: 0;
     @media ${device.laptop} {
-        margin: 0 0 0 16px;
+        margin: 0 0 0 24px;
     }
 
 `

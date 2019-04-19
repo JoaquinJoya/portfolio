@@ -12,7 +12,8 @@ export const Section = styled.section`
 
 export const SectionPink = styled(Section)`
   background: ${colors.pinkSpecial};
-  padding: 130px 0 100px 0;
+  padding: 200px 0 140px 0;
+
   @media ${device.laptopL} {
     padding: 240px 0 240px 0;
   }
@@ -32,7 +33,7 @@ export const Wrapper = styled.div `
 
   @media ${device.tablet} {
     max-width: 90%;
-    padding: 0 80px;
+    padding: 0 48px;
   }
 
   @media ${device.laptopL} {
@@ -83,8 +84,17 @@ export const Title = styled.h1`
   letter-spacing: -0.02em;
   color: ${colors.blueBohemian};
   line-height: 48px;
-
   margin-bottom: 20px;
+
+  @media ${device.mobileS} {
+    font-size: 40px;
+    line-height: 38px;
+  }
+
+  @media ${device.mobileL} {
+    font-size: 48px;
+    line-height: 46px;
+  }
 
   @media ${device.tablet} {
     font-size: 60px;
@@ -137,12 +147,19 @@ export const SubTitleWork = styled(SubTitle)`
   margin: -87px 0 60px 0;
   text-align: center;
 
+  @media ${device.mobileS} {
+    font-size: 36px;
+    margin: -86px 0 16px 0;
+  }
+
   @media ${device.tablet} {
-    
+    font-size: 44px;
     text-align: right;
+    margin: -90px 0 40px 0;
 
     }
   @media ${device.laptopL} {
+    font-size: 80px;
     margin: -91px 0 90px 0;
     text-align: right;
 
@@ -236,6 +253,7 @@ export const LinkCont = styled(Link) `
     text-align: center;
     font-family: "Steradian", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     text-decoration: underline;
+    margin-top: -30px;
     color: ${colors.blueDark};
     @media ${device.laptop} {
         font-size: 27px;

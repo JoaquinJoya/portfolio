@@ -19,7 +19,7 @@ const Header = () => (
     <Wrapper>
     <Nav>
       <LogoContainer to="/">
-            <img style={{
+            <img className="logo" style={{
               maxWidth: `inherit`
             }} src={logo} alt="Joaquin Joya"/>
       </LogoContainer>

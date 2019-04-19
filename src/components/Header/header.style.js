@@ -43,7 +43,8 @@ padding: 0 14px;
 
 export const NavItemLink = styled(Link)`
   text-decoration: none;
-  font-family: "Steradian";
+  font-family: "Steradian", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
   color:${colors.blueBohemian};
@@ -53,7 +54,8 @@ export const NavItemLink = styled(Link)`
 export const NavContactLink = styled.a`
   font-weight: 900;
   text-decoration: underline;
-  font-family: "Steradian";
+  font-family: "Steradian", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Helvetica, sans-serif;
   font-size: 18px;
   color:${colors.blueBohemian};
 `

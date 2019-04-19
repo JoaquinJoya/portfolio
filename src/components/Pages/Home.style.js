@@ -18,9 +18,17 @@ export const WorkContainer = styled.div`
 `
 
 export const ProcessContainer = styled.div`
+     
      @media ${device.laptop} {
         display: grid;
-        grid-template-columns: 38% 62%;
+        grid-template-columns: 33% 59%;
+        column-gap: 46px;
+        
+    }
+
+    @media ${device.laptopL} {
+        display: grid;
+        grid-template-columns: 34% 59%;
         column-gap: 80px;
         
     }
@@ -57,8 +65,8 @@ export const AboutContainer = styled.div`
     justify-self: center;
 
     @media ${device.tablet} {
-    grid-template-columns: 50% 50%;
-    column-gap: 60px;
+    grid-template-columns: 40% 60%;
+    column-gap: 32px;
    
    }
 
