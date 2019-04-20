@@ -17,7 +17,7 @@ export const Title = styled.h2 `
         line-height: 40px;
     }
 
-    @media ${device.mobileL} {
+    @media ${device.mobileM} {
     font-size: 42px;
     line-height: 48px;
   }

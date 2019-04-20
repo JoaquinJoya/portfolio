@@ -90,17 +90,16 @@ export const Title = styled.h1`
     font-size: 40px;
     line-height: 38px;
   }
+
   
-  @media ${device.mobileS} {
+
+  @media ${device.mobileM} {
     font-size: 48px;
     line-height: 46px;
   
   }
 
-  @media ${device.mobileL} {
-    font-size: 48px;
-    line-height: 46px;
-  }
+  
 
   @media ${device.tablet} {
     font-size: 60px;
@@ -156,6 +155,11 @@ export const SubTitleWork = styled(SubTitle)`
   @media ${device.mobileS} {
     font-size: 36px;
     margin: -86px 0 16px 0;
+  }
+  
+  @media ${device.mobileM} {
+    font-size: 40px;
+    margin: -90px 0 16px 0;
   }
 
   @media ${device.tablet} {
