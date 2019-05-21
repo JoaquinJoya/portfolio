@@ -26,7 +26,7 @@ const Header = () => (
       <ListNavContainer>
           <NavItem><NavItemLink to="/">Home</NavItemLink></NavItem>
           <NavItem><NavItemLink to="/work">Work</NavItemLink></NavItem>
-          <NavItem><NavItemLink to="/">About Me</NavItemLink></NavItem>
+          <NavItem><NavItemLink to="/about">About Me</NavItemLink></NavItem>
           <NavItem><NavItemLink to="/">Blog</NavItemLink></NavItem>
       </ListNavContainer>
 

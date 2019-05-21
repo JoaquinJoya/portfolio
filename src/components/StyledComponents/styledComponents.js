@@ -19,6 +19,10 @@ export const SectionPink = styled(Section)`
   }
 `
 
+export const SectionSmall = styled(Section)`
+    padding: 130px 0 60px 0;
+`
+
 export const Wrapper = styled.div `
  
   margin: 0 auto;
@@ -110,8 +114,46 @@ export const Title = styled.h1`
     font-size: 105px;
     line-height: 94px;
   }
+  
 
 `
+
+
+export const CommonHeroTitle = styled.h1`
+  font-size: 42px;
+  font-family: "Steradian", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Helvetica, sans-serif;
+  font-weight: 900;
+  color: ${colors.blueBohemian};
+  line-height: 1;
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+
+  @media ${device.tablet} {
+    font-size: 54px;
+    line-height: 1;
+    margin-bottom: 18px;
+  }
+
+  }
+
+`
+
+export const CommonHeroBody = styled.p`
+     font-size: 18px;
+  font-family: "Steradian", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Helvetica, sans-serif;
+  font-weight: 400;
+  color: ${colors.blueOnix};
+  line-height: 27px;
+
+  @media ${device.tablet} {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 22px;
+  }
+`
+
 
 export const SubTitle = styled.h2`
   font-family: "Steradian", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,

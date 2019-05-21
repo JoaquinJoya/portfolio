@@ -8,7 +8,7 @@ import { Link } from "gatsby"
 
 export const CardContainer = styled.div`
     padding: 0 0 48px 0;
-    border-bottom: 1px solid #BDC3D0;
+    border-bottom: 1px solid #e6eaf1;
     margin: 0 0 64px 0;
 
     @media ${device.laptop} {
@@ -64,6 +64,12 @@ export const Category = styled.span`
     line-height: 1.25em;
     margin: 24px 0 8px 0;
     display: inline-block;
+
+    @media ${device.laptop} {
+        margin: 0px 0 8px 0;
+        
+
+    }
 `
 
 export const LinksContainer = styled.div`
