@@ -19,6 +19,16 @@ export const SectionPink = styled(Section)`
   }
 `
 
+export const SectionAboutMe = styled.section`
+  background: ${colors.pinkSpecial};
+  padding: 48px 0 60px 0;
+
+  @media ${device.laptopL} {
+    padding: 120px 0 120px 0;
+  }
+`
+
+
 export const HeroAbout = styled(Section)`
   background: #fff;
   padding: 94px 0 60px 0;
@@ -39,7 +49,7 @@ export const Wrapper = styled.div `
   width: 100%;
 
   @media ${device.mobileL} {
-    padding: 0 24px;
+    padding: 0 20px;
     width: 90%;
 
   }
@@ -127,6 +137,26 @@ export const Title = styled.h1`
 
 `
 
+export const AboutTitle = styled(Title)`
+  font-size: 54px;
+  margin: 32px 0 12px 0;
+  @media ${device.mobileM} {
+    font-size: 50px;
+    line-height: 52px;
+  
+  }
+
+  @media ${device.tablet} {
+    font-size: 60px;
+    line-height: 56px;
+  }
+
+  @media ${device.laptopL} {
+    font-size: 105px;
+    line-height: 94px;
+  }
+`
+
 
 export const CommonHeroTitle = styled.h1`
   font-size: 42px;
@@ -143,6 +173,8 @@ export const CommonHeroTitle = styled.h1`
     line-height: 1;
     margin-bottom: 18px;
   }
+
+  
 
   }
 
@@ -275,6 +307,7 @@ export const BigText = styled.p`
 `
 
 export const Text = styled(BigText)`
+
   @media ${device.laptopL} {
           font-size: 18px;
           line-height: 30px;

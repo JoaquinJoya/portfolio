@@ -81,7 +81,7 @@ const IndexPage = () => (
               
           </WorkContainer>
           <FlexCenter>
-           <LinkCont to="/">View More Work</LinkCont>
+           <LinkCont to="/work">View More Work</LinkCont>
           </FlexCenter>
           
             
@@ -149,7 +149,7 @@ const IndexPage = () => (
               After working in my Full-Time Job, I love doing some freelance work with amazing people. During my free time I enjoy learning new things, 
               not only about design or code, but whatever could be interesting and fun.
             </Text>
-            <LinkBlue to="/work">Read more about me</LinkBlue>
+            <LinkBlue to="/about">Read more about me</LinkBlue>
           </AboutTextContainer>
       </AboutContainer>
         
