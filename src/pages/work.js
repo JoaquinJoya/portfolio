@@ -13,7 +13,7 @@ import {WorkContainer} from "../components/Pages/Home.style.js"
 const WorkPage = () => (
     <Layout>
       <SEO title="Joaquin Joya" keywords={[`Product Design`, `UX Design`, `UI Design`]} />
-      <Helmet titleTemplate={`Joaquin Joya | Product Designer and Frontend Developer`}/>
+      <Helmet titleTemplate={`Work | Joaquin Joya`}/>
       <Wrapper>
         <SectionSmall>
           <CommonHeroTitle>Select Work</CommonHeroTitle>

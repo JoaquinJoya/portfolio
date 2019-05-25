@@ -19,6 +19,15 @@ export const SectionPink = styled(Section)`
   }
 `
 
+export const HeroAbout = styled(Section)`
+  background: #fff;
+  padding: 94px 0 60px 0;
+
+  @media ${device.laptopL} {
+    padding: 240px 0 240px 0;
+  }
+`
+
 export const SectionSmall = styled(Section)`
     padding: 130px 0 60px 0;
 `

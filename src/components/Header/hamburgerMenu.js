@@ -17,7 +17,7 @@ const Menu = () => (
             <ul className="list menu__list">
                 <li className="menu__group"><Link to="/" className="link menu__link">Home</Link></li>
                 <li className="menu__group"><Link to="/work" className="link menu__link">Work</Link></li>
-                <li className="menu__group"><Link to="/" className="link menu__link">About Me</Link></li>
+                <li className="menu__group"><Link to="/about" className="link menu__link">About Me</Link></li>
                 <li className="menu__group"><Link to="/" className="link menu__link">Blog</Link></li>
                 <li className="menu__group"><Link to="/" className="link menu__link">Contact Me</Link></li>
             </ul>
