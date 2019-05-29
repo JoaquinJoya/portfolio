@@ -57,7 +57,11 @@ body {
      margin: 0 0 56px 0;
 }
 
+/*#ABOUT_ME*/
 
+.about-hero-desktop {
+     display: none;
+}
 
 /*Media Queries*/
 
@@ -80,6 +84,13 @@ body {
 
           
      }
+     .about-hero-mobile {
+     display: none;
+}
+
+.about-hero-desktop {
+     display: block;
+}
 }
 
 
@@ -93,3 +104,4 @@ body {
           margin: 0 0 120px 0;
      }
 }
+

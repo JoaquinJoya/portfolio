@@ -129,6 +129,11 @@ export const Title = styled.h1`
     line-height: 56px;
   }
 
+  @media ${device.laptop} {
+    font-size: 80px;
+    line-height: 84px;
+  }
+
   @media ${device.laptopL} {
     font-size: 105px;
     line-height: 94px;
@@ -151,9 +156,14 @@ export const AboutTitle = styled(Title)`
     line-height: 56px;
   }
 
+  @media ${device.laptop} {
+    font-size: 80px;
+    line-height: 84px;
+  }
+
   @media ${device.laptopL} {
     font-size: 105px;
-    line-height: 94px;
+    line-height: 105px;
   }
 `
 
@@ -299,6 +309,11 @@ export const BigText = styled.p`
     line-height: 30px;
   }
 
+  @media ${device.laptop} {
+    font-size: 20px;
+    line-height: 32px;
+
+  }
     @media ${device.laptopL} {
         font-size: 27px;
         line-height: 40px;
