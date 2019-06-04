@@ -9,7 +9,8 @@ import Helmet from "react-helmet"
 import CardWork from '../components/Work/CardWork.js'
 import ProcessStep from "../components/Pages/Home/ProcessStep.js"
 import PortfolioImage from "../components/Images/PortfolioImages.js"
-
+import { graphql, StaticQuery } from 'gatsby'
+import Post from '../components/Post/Post.js'
 
 import { Section, SectionPink, Wrapper, Title, OutlineText, HeroContainer, 
         BigText, StrikeThrough, ContactMe, SubTitle, LinkCont, SubTitleWork,
@@ -156,12 +157,50 @@ const IndexPage = () => (
         
       </Wrapper>
     </Section>
-
+    <Section id="BlogHomeSection">
+      <Wrapper>
+      <SubTitle>
+            Blog
+          </SubTitle>
+        <StaticQuery query={indexQuery} render={data => {
+          return (
+            <div>
+              {data.allMarkdownRemark.edges.map(({ node }) => (
+                <Post 
+                title={node.frontmatter.title}
+                body={node.excerpt}
+                path={node.frontmatter.path}
+                
+                />
+              ))}
+            </div>
+          )
+        }}/>
+      </Wrapper>
+    </Section>
     
   </Layout>
   
 )
 
-
+const indexQuery = graphql`
+  query{
+    allMarkdownRemark {
+      edges{
+        node{
+          id
+          frontmatter {
+            title
+            date
+            author
+            path
+            bg
+          }
+          excerpt
+        }
+      }
+    }
+  }
+`
 
 export default IndexPage

@@ -20,7 +20,7 @@ const FooterNavCont = () => (
             <FooterNav>
                     <FooterLink to="/">Home</FooterLink>
                     <FooterLink to="/work">Work</FooterLink>
-                    <FooterLink to="/">About Me</FooterLink>
+                    <FooterLink to="/about">About Me</FooterLink>
                     <FooterLink to="/">Blog</FooterLink>
                 </FooterNav>
             </FooterNavWrapper>
