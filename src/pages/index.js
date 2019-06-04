@@ -17,7 +17,7 @@ import { Section, SectionPink, Wrapper, Title, OutlineText, HeroContainer,
         Text, SubSubTitle, FlexCenter, SubTitleBig, LinkBlue
 } from "../components/StyledComponents/styledComponents.js"
 import { TextHeroContainer, WorkContainer,
-        ProcessStepsContainer, ProcessContainer, AboutTextContainer, AboutContainer
+        ProcessStepsContainer, ProcessContainer, AboutTextContainer, AboutContainer, BlogContainer
 } from "../components/Pages/Home.style.js"
 
 const IndexPage = () => (
@@ -164,7 +164,7 @@ const IndexPage = () => (
           </SubTitle>
         <StaticQuery query={indexQuery} render={data => {
           return (
-            <div>
+            <BlogContainer>
               {data.allMarkdownRemark.edges.map(({ node }) => (
                 <Post 
                 title={node.frontmatter.title}
@@ -173,7 +173,7 @@ const IndexPage = () => (
                 
                 />
               ))}
-            </div>
+            </BlogContainer>
           )
         }}/>
       </Wrapper>

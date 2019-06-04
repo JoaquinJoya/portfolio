@@ -26,7 +26,7 @@ export const CardPostText = styled.p`
     font-weight: 400;
     color: ${colors.blueBohemian};
     line-height: 24px;
-    margin: 0 0 32px 0;
+    margin: 0 0 14px 0;
     
 `;
 
@@ -41,7 +41,7 @@ export const CardPostReadMore = styled.span`
    font-weight: 900;
    color: ${colors.blueLA};
    line-height: 1;
-   margin: 0 0 36px 0;
+   margin: 0 8px 32px 0;
 `;
 
 export const CardPostArrow = styled.img`

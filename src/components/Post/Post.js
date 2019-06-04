@@ -1,4 +1,5 @@
 import React from 'react'
+import arrow from "../../images/arrow-readmore.svg"
 import { Link } from 'gatsby'
 import { CardPost, CardPostTitle, CardPostText, CardPostLink, CardPostArrow, CardPostReadMore } from './post.style.js'
 
@@ -15,7 +16,7 @@ const Post = ({ title, path, body }) => {
                 <CardPostReadMore>
                     Read More
                 </CardPostReadMore>
-                <CardPostArrow src="../../images/arrow-readmore.svg"/>
+                <CardPostArrow src={arrow}/>
             </CardPostLink>
         </CardPost>
     )
