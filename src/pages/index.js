@@ -165,11 +165,13 @@ const IndexPage = () => (
         <StaticQuery query={indexQuery} render={data => {
           return (
             <BlogContainer>
+            
               {data.allMarkdownRemark.edges.map(({ node }) => (
                 <Post 
                 title={node.frontmatter.title}
                 body={node.excerpt}
                 path={node.frontmatter.path}
+                fluid={node.frontmatter.image.childImageSharp.fluid}
                 
                 />
               ))}
@@ -185,7 +187,7 @@ const IndexPage = () => (
 
 const indexQuery = graphql`
   query{
-    allMarkdownRemark {
+    allMarkdownRemark(limit: 3, sort: { fields: [frontmatter___date], order: DESC}) {
       edges{
         node{
           id
@@ -194,9 +196,15 @@ const indexQuery = graphql`
             date
             author
             path
-            bg
+            image{
+              childImageSharp{
+                fluid(maxWidth: 670){
+                    ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
-          excerpt
+          excerpt(pruneLength:110)
         }
       }
     }

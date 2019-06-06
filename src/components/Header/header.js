@@ -27,7 +27,7 @@ const Header = () => (
           <NavItem><NavItemLink to="/">Home</NavItemLink></NavItem>
           <NavItem><NavItemLink to="/work">Work</NavItemLink></NavItem>
           <NavItem><NavItemLink to="/about">About Me</NavItemLink></NavItem>
-          <NavItem><NavItemLink to="/">Blog</NavItemLink></NavItem>
+          <NavItem><NavItemLink to="/blog">Blog</NavItemLink></NavItem>
       </ListNavContainer>
 
       <NavContactLink href="mailto:contact@joaquinjoyareal.com">Contact Me</NavContactLink>

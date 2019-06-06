@@ -21,7 +21,7 @@ const FooterNavCont = () => (
                     <FooterLink to="/">Home</FooterLink>
                     <FooterLink to="/work">Work</FooterLink>
                     <FooterLink to="/about">About Me</FooterLink>
-                    <FooterLink to="/">Blog</FooterLink>
+                    <FooterLink to="/blog">Blog</FooterLink>
                 </FooterNav>
             </FooterNavWrapper>
 

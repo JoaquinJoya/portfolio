@@ -3,7 +3,7 @@ title: 'React Native vs IONIC vs Native: What’s best for my mobile app?'
 date: 2019-06-01 08:00:00
 author: 'Joaquin Joya'
 path: '/first-post'
-bg: '#000'
+image: ../../images/blog/thumbnail-2.png
 ---
 
 We prepared this guide that covers the alternatives you have when building a mobile app, with the main pros and cons of each option.

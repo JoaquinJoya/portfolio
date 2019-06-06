@@ -3,7 +3,7 @@ title: 'How Product Design Impacts Business KPIS'
 date: 2019-07-01 08:00:00
 author: 'Joaquin Joya'
 path: '/second-post'
-bg: '#333'
+image: ../../images/blog/thumbnail-1.png
 ---
 
 We put together a list of the 11 most important reasons why investing in product design should be a top priority for all businesses.

@@ -18,8 +18,8 @@ const Menu = () => (
                 <li className="menu__group"><Link to="/" className="link menu__link">Home</Link></li>
                 <li className="menu__group"><Link to="/work" className="link menu__link">Work</Link></li>
                 <li className="menu__group"><Link to="/about" className="link menu__link">About Me</Link></li>
-                <li className="menu__group"><Link to="/" className="link menu__link">Blog</Link></li>
-                <li className="menu__group"><Link to="/" className="link menu__link">Contact Me</Link></li>
+                <li className="menu__group"><Link to="/blog" className="link menu__link">Blog</Link></li>
+                <li className="menu__group"><a href="mailto:contact@joaquinjoyareal.com" className="link menu__link">Contact Me</a></li>
             </ul>
 
         </nav>

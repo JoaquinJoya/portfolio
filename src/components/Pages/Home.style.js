@@ -112,6 +112,9 @@ export const AboutTextContainer = styled.div`
 export const BlogContainer = styled.div`
     display: grid;
     gap: 24px;
+    @media ${device.tablet} {
+            grid-template-columns: 1fr 1fr;
+        }
         @media ${device.laptop} {
             grid-template-columns: 1fr 1fr 1fr;
         }

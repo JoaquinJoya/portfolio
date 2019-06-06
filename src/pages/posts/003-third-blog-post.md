@@ -1,9 +1,9 @@
 ---
 title: '20 Guidelines to improve your web accessibility'
-date: 2019-07-01 08:00:00
+date: 2019-05-01 08:00:00
 author: 'Joaquin Joya'
 path: '/third-post'
-bg: '#587'
+image: ../../images/blog/thumbnail-3.png
 ---
 
 We put together a list of ten web accessibility guidelines that will guarantee access to your site to any person, in spite of their disabilities.
